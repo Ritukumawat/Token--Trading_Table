@@ -9,7 +9,32 @@ export const Icons = {
       <path d="M3 21c6-5 9-9 18-18" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
       <path d="M21 3c-5 6-9 9-18 18" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
-  ),
+  ),Run: ({ className = "" }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden>
+    <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+),
+
+Gas: ({ className = "" }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden>
+    <path d="M3 7h12v12H3z" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M18 7v6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+),
+
+Ring: ({ className = "" }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden>
+    <circle cx="12" cy="12" r="7" stroke="currentColor" strokeWidth="1.4"/>
+  </svg>
+),
+
+Off: ({ className = "" }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden>
+    <path d="M3 3l18 18" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M12 2v6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+),
+
 
   Profile: ({ className = "" }: { className?: string }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden>
